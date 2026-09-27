@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">N214410101_JP</string>
+    <string name="n1">名前</string>
+    <string name="n2">電話番号</string>
+    <string name="n3">メールアドレス</string>
+
+    <string name="su">確定</string>
+    <string name="ex">終了</string>
+
+    <string name="en">拡大</string>
+    <string name="sh">縮小</string>
+
+    <string name="res">結果</string>
+</resources>

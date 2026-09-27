@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">N214410101_TW</string>
+    <string name="n1">姓名</string>
+    <string name="n2">電話</string>
+    <string name="n3">郵件</string>
+
+    <string name="su">確定</string>
+    <string name="ex">離開</string>
+
+    <string name="en">放大</string>
+    <string name="sh">縮小</string>
+
+    <string name="res">結果</string>
+</resources>
