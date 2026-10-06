@@ -12,4 +12,13 @@
     <string name="sh">縮小</string>
 
     <string name="res">結果</string>
+
+    <string name="exg">匯率</string>
+    <string name="us">美金</string>
+    <string name="nt">台幣</string>
+    <string name="u2n">美轉台</string>
+    <string name="n2u">台轉美</string>
+    <string name="cls">清除</string>
+
+    <string name="err">有欄位未輸入！</string>
 </resources>

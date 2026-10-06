@@ -12,4 +12,14 @@
     <string name="sh">縮小</string>
 
     <string name="res">結果</string>
+
+    <string name="exg">為替レート</string>
+    <string name="us">米ドル</string>
+    <string name="nt">台湾ドル</string>
+    <string name="u2n">米ドルから台湾ドル</string>
+    <string name="n2u">台湾ドルから米ドル</string>
+    <string name="cls">クリア</string>
+
+    <string name="err">入力されていない項目があります！</string>
+
 </resources>

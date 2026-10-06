@@ -11,4 +11,13 @@
     <string name="sh">Exit</string>
 
     <string name="res">Result</string>
+
+    <string name="exg">Exchange</string>
+    <string name="us">USD</string>
+    <string name="nt">NTD</string>
+    <string name="u2n">YS2NT</string>
+    <string name="n2u">NT2US</string>
+    <string name="cls">Clear</string>
+
+    <string name="err">Some field are missing!</string>
 </resources>
