@@ -9,13 +9,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <!-- n1 -->
+    <!-- reslut -->
     <TextView
         android:id="@+id/result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/res" />
 
+    <!-- name -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -34,7 +35,7 @@
             android:text="" />
     </LinearLayout>
 
-    <!-- n2 -->
+    <!-- phone -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,7 +55,7 @@
             android:text="" />
     </LinearLayout>
 
-    <!-- n3 -->
+    <!-- email -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -191,10 +192,10 @@
             android:text="@string/ex" />
     </LinearLayout>
 
-    <!--    <TextView-->
+<!--        <TextView-->
 <!--        android:layout_width="wrap_content"-->
 <!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/str"-->
+<!--        android:text="@string/ex"-->
 <!--        android:textColor="#ff0000"-->
 <!--        android:textSize="20sp"-->
 <!--        app:layout_constraintBottom_toBottomOf="parent"-->
