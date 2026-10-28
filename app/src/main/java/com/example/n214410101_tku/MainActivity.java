@@ -36,9 +36,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         r1=(TextView) findViewById(R.id.result); // 用ID取得結果文字
         r1.setTextSize(s); // 設定 文字 大小
 
-        name =(EditText) findViewById(R.id.ed_name);
-        phone=(EditText) findViewById(R.id.ed_phone);
-        mail =(EditText) findViewById(R.id.ed_mail);
+        en=(EditText) findViewById(R.id.ed_nt); // 取得 台幣dom
+        eu=(EditText) findViewById(R.id.ed_us); // 取得 美金dom
+        eg=(EditText) findViewById(R.id.ed_exg); // 取得 匯率dom
 
         bu=(Button) findViewById(R.id.b_u2n); // 美轉台 按鈕dom
         bn=(Button) findViewById(R.id.b_n2u); // 台轉美 按鈕dom
@@ -50,9 +50,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bc.setOnClickListener(this);
         bx.setOnClickListener(this);
 
-        en=(EditText) findViewById(R.id.ed_nt); // 取得 台幣dom
-        eu=(EditText) findViewById(R.id.ed_us); // 取得 美金dom
-        eg=(EditText) findViewById(R.id.ed_exg); // 取得 匯率dom
+        name =(EditText) findViewById(R.id.ed_name);
+        phone=(EditText) findViewById(R.id.ed_phone);
+        mail =(EditText) findViewById(R.id.ed_mail);
 
         bs=(Button) findViewById(R.id.b_su); // 確定 按鈕dom
         be=(Button) findViewById(R.id.b_exit); // 離開 按鈕dom
@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             String phone_1 = phone.getText().toString();
             String mail_1 = mail.getText().toString();
 
-            r1.setText(getString(R.string.res) +name_1 +phone_1+phone_1);
+            r1.setText(getString(R.string.res) +name_1 +phone_1+mail_1);
         }
         if(v==bl){
             if(s < 35) {
